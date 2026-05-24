@@ -1,0 +1,106 @@
+{
+  "chrisdoc": {
+    "get-workouts": {
+      "args_used": {
+        "page": 1,
+        "pageSize": 5
+      },
+      "is_faithful": false,
+      "total_divergences": 1,
+      "by_kind": {
+        "type_mismatch": 1
+      },
+      "first_5_examples": [
+        {
+          "kind": "type_mismatch",
+          "path": "",
+          "api_type": "dict",
+          "mcp_type": "list"
+        }
+      ]
+    },
+    "get-workout": {
+      "args_used": {
+        "workoutId": "cf1549e1-4592-4636-8f0d-b38f26513ae7"
+      },
+      "is_faithful": false,
+      "total_divergences": 139,
+      "by_kind": {
+        "stripped_field": 72,
+        "added_field": 67
+      },
+      "first_5_examples": [
+        {
+          "kind": "stripped_field",
+          "path": ".start_time",
+          "api_value": "2026-05-23T09:54:50+00:00"
+        },
+        {
+          "kind": "stripped_field",
+          "path": ".routine_id",
+          "api_value": "3ca915e2-a68c-4f9c-b231-935ab7e79763"
+        },
+        {
+          "kind": "stripped_field",
+          "path": ".created_at",
+          "api_value": "2026-05-23T10:32:01.168Z"
+        },
+        {
+          "kind": "stripped_field",
+          "path": ".updated_at",
+          "api_value": "2026-05-23T10:32:01.168Z"
+        },
+        {
+          "kind": "stripped_field",
+          "path": ".end_time",
+          "api_value": "2026-05-23T10:32:00+00:00"
+        }
+      ]
+    }
+  },
+  "meimakes": {
+    "get-workouts": {
+      "error": "all arg variants failed: Expecting value: line 1 column 1 (char 0)"
+    },
+    "get-workout": {
+      "error": "all arg variants failed: Expecting value: line 1 column 1 (char 0)"
+    }
+  },
+  "thin": {
+    "get-workouts": {
+      "args_used": {
+        "page": 1,
+        "pageSize": 5
+      },
+      "is_faithful": false,
+      "total_divergences": 2,
+      "by_kind": {
+        "value_mismatch": 1,
+        "list_length_mismatch": 1
+      },
+      "first_5_examples": [
+        {
+          "kind": "value_mismatch",
+          "path": ".page_count",
+          "api": 34,
+          "mcp": 17
+        },
+        {
+          "kind": "list_length_mismatch",
+          "path": ".workouts",
+          "api_len": 5,
+          "mcp_len": 10
+        }
+      ]
+    },
+    "get-workout": {
+      "args_used": {
+        "workout_id": "cf1549e1-4592-4636-8f0d-b38f26513ae7"
+      },
+      "is_faithful": true,
+      "total_divergences": 0,
+      "by_kind": {},
+      "first_5_examples": []
+    }
+  }
+}
