@@ -18,13 +18,32 @@ fi
 echo "Running ${#SYSTEMS[@]} systems × 13 prompts × $EPOCHS epochs on $MODEL"
 echo
 
+FAILED=()
 for sys in "${SYSTEMS[@]}"; do
     echo "============================================="
     echo "  system: $sys"
+    echo "  started: $(date '+%Y-%m-%d %H:%M:%S')"
     echo "============================================="
-    uv run inspect eval evals/run.py \
+    if uv run inspect eval evals/run.py \
         -T system="$sys" \
         --model "$MODEL" \
         --epochs "$EPOCHS" \
-        --log-dir logs/
+        --log-dir logs/; then
+        echo "  ✓ $sys complete"
+    else
+        rc=$?
+        echo "  ✗ $sys failed with exit $rc — continuing"
+        FAILED+=("$sys")
+    fi
 done
+
+echo
+echo "============================================="
+echo "  matrix done"
+echo "============================================="
+if [ ${#FAILED[@]} -gt 0 ]; then
+    echo "FAILED systems: ${FAILED[*]}"
+    exit 1
+else
+    echo "all systems completed"
+fi
