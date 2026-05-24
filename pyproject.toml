@@ -9,6 +9,7 @@ dependencies = [
     "anthropic>=0.104.1",
     "httpx>=0.28.1",
     "inspect-ai>=0.3.225",
+    "matplotlib>=3.10.9",
     "mcp[cli]>=1.27.1",
     "pytest>=9.0.3",
     "python-dotenv>=1.2.2",
