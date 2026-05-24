@@ -79,7 +79,9 @@ def aggregate(eval_logs: list[Path]) -> dict[str, Any]:
             scores = s.get("scores", {})
 
             tool_calls = sum(1 for ev in s.get("events", []) if ev.get("event") == "tool")
-            tokens = (s.get("model_usage") or {}).get("total_tokens") or 0
+            # model_usage is keyed by model; sum total_tokens across whatever model(s) ran.
+            mu = s.get("model_usage") or {}
+            tokens = sum((u or {}).get("total_tokens", 0) for u in mu.values())
 
             for bucket_key in [(system, cat), (system, "_all")]:
                 b = per_bucket[bucket_key]
