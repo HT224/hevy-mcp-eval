@@ -24,6 +24,7 @@ from inspect_ai.model import get_model
 from inspect_ai.scorer import (
     CORRECT,
     INCORRECT,
+    NOANSWER,
     PARTIAL,
     Score,
     Target,
@@ -107,7 +108,7 @@ def correctness_factual():
 
         gt = load(prompt_id)
         if gt.get("scoring") != "factual":
-            return Score(value=INCORRECT, explanation=f"{prompt_id} is not a factual prompt")
+            return Score(value=NOANSWER, explanation=f"{prompt_id} is not a factual prompt (skipping)")
 
         judge = get_model(JUDGE_MODEL)
         msg = JUDGE_PROMPT.format(

@@ -20,5 +20,8 @@ data/fixtures/raw/
 logs/
 .inspect/
 
+# Vendored third-party MCP servers (set up via scripts/setup_mcps.sh)
+vendor/
+
 # OS
 .DS_Store

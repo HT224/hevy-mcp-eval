@@ -13,6 +13,7 @@
 | License (§10.4) | MIT | 2026-05-24 |
 | Framework | Inspect AI (confirmed MCP stdio support via `mcp_server_stdio` / `mcp_tools`) | 2026-05-24 |
 | Repo timing | Private during build; public at Phase 3 proof-of-life gate | 2026-05-24 |
+| Tomtorggler MCP deferred | Cloudflare-Workers HTTP-only deployment — different lifecycle from stdio MCPs; needs local dev server + HTTP transport wiring. v0.1 ships with 5 systems (chrisdoc, meimakes, thin, Baseline-CSV, Baseline-nodata); tomtorggler added in v0.2. | 2026-05-24 |
 
 ## 1. Goal
 
@@ -47,7 +48,7 @@ The headline finding we're hunting for is something like: *"Most Hevy MCPs are t
 | System | Role | Why included |
 |---|---|---|
 | `chrisdoc/hevy-mcp` | Treatment | 240-star active leader (TypeScript) |
-| `tomtorggler/hevy-mcp-server` | Treatment | 20 stars, plausible alternative |
+| ~~`tomtorggler/hevy-mcp-server`~~ | **Deferred to v0.2** (see §0) | 20 stars; HTTP-only Cloudflare Workers deployment |
 | `meimakes/hevy-mcp-server` | Treatment | 3 stars, dual-transport — different design |
 | `hevy-mcp-thin` | **Control** | We build this — 1:1 wrapper of Hevy API with no transformation, no aggregation, no analytics. Establishes the "what does the MCP layer add?" floor. |
 | **Baseline A** | Baseline | Claude + CSV-in-prompt (raw workout export dumped into context), no MCP |

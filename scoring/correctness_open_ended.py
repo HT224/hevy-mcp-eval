@@ -22,7 +22,17 @@ import re
 from statistics import mean
 
 from inspect_ai.model import get_model
-from inspect_ai.scorer import Score, Target, mean as mean_metric, scorer, stderr
+from inspect_ai.scorer import (
+    CORRECT,
+    INCORRECT,
+    NOANSWER,
+    PARTIAL,
+    Score,
+    Target,
+    accuracy,
+    scorer,
+    stderr,
+)
 from inspect_ai.solver import TaskState
 
 from ._ground_truth import load
@@ -73,16 +83,16 @@ def _parse_judge(text: str) -> dict | None:
         return None
 
 
-@scorer(metrics=[mean_metric(), stderr()])
+@scorer(metrics=[accuracy(), stderr()])
 def correctness_open_ended():
     async def score(state: TaskState, target: Target) -> Score:
         prompt_id = state.metadata.get("prompt_id")
         if not prompt_id:
-            return Score(value=0.0, explanation="missing prompt_id in metadata")
+            return Score(value=NOANSWER, explanation="missing prompt_id in metadata")
 
         gt = load(prompt_id)
         if gt.get("scoring") != "open_ended":
-            return Score(value=0.0, explanation=f"{prompt_id} is not an open-ended prompt")
+            return Score(value=NOANSWER, explanation=f"{prompt_id} is not an open-ended prompt (skipping)")
 
         rubric = gt.get("rubric_dimensions", [])
         dossier = gt.get("relevant_context", {})
@@ -113,15 +123,23 @@ def correctness_open_ended():
                         pass
 
         # Average each dimension's score across runs (max 2); then average across dimensions; normalize to 0..1.
-        per_dim_avg = {
-            d: (mean(v) if v else 0.0) for d, v in per_dim_scores.items()
-        }
+        per_dim_avg = {d: (mean(v) if v else 0.0) for d, v in per_dim_scores.items()}
         overall = (mean(per_dim_avg.values()) / 2.0) if per_dim_avg else 0.0
 
+        # Bucket into CORRECT/PARTIAL/INCORRECT so this scorer uses the same metric
+        # (accuracy) as correctness_factual, making cross-category aggregation sensible.
+        if overall >= 0.7:
+            bucket = CORRECT
+        elif overall >= 0.4:
+            bucket = PARTIAL
+        else:
+            bucket = INCORRECT
+
         return Score(
-            value=round(overall, 3),
-            explanation=f"avg rubric score {overall:.2f} across {len(rubric)} dims × {NUM_JUDGE_RUNS} runs",
+            value=bucket,
+            explanation=f"avg rubric {overall:.2f} across {len(rubric)} dims × {NUM_JUDGE_RUNS} runs → {bucket}",
             metadata={
+                "overall_score_0to1": round(overall, 3),
                 "per_dimension_average": per_dim_avg,
                 "judge_runs": runs,
                 "num_runs": NUM_JUDGE_RUNS,
