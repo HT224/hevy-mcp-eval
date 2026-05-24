@@ -25,10 +25,20 @@ load_dotenv()
 
 
 @task
-def hevy_eval(system: str = "chrisdoc") -> Task:
+def hevy_eval(system: str = "chrisdoc", prompt_id: str | None = None) -> Task:
+    """Parameterized eval.
+
+    Args:
+        system: one of the keys in SYSTEMS.
+        prompt_id: if set, filter dataset to only that prompt (e.g. "b02").
+            Useful for dry runs targeting a single cheap prompt across systems.
+    """
     if system not in SYSTEMS:
-        raise ValueError(
-            f"Unknown system '{system}'. Choose from: {sorted(SYSTEMS)}"
-        )
+        raise ValueError(f"Unknown system '{system}'. Choose from: {sorted(SYSTEMS)}")
     _, builder = SYSTEMS[system]
-    return builder()
+    task = builder()
+    if prompt_id is not None:
+        task.dataset = task.dataset.filter(lambda s: s.id == prompt_id)
+        if len(task.dataset) == 0:
+            raise ValueError(f"No sample with id={prompt_id!r}")
+    return task

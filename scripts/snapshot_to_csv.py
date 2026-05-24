@@ -1,10 +1,14 @@
 """Materialize the anonymized snapshot as a compact CSV for Baseline A.
 
-One row per set. Weights rounded to 1 decimal (the underlying precision
-is a lb→kg conversion artifact, not meaningful). Notes columns omitted
-(stripped already in snapshot). Sets where both weight_kg and reps are
-zero are skipped — they're bar-only / bodyweight markers and add token
-cost without adding signal for most prompts.
+One row per set. Weights rounded to 2 decimals — 1 decimal collapsed
+non-equal weights into the same row (e.g., 52.16 and 52.20 both rounded
+to 52.2), giving the baseline ambiguous data the MCPs don't see. 2dp
+preserves the meaningful precision (sets are typically logged at 0.5 lb
+increments ≈ 0.23 kg, well within 2dp resolution).
+
+Notes columns omitted (stripped already in snapshot). Sets where both
+weight_kg and reps are zero are skipped — they're bar-only / bodyweight
+markers and add token cost without adding signal for most prompts.
 
 Outputs to data/fixtures/snapshot/workouts.csv (committed; this is what
 Baseline A injects into the prompt).
@@ -54,7 +58,7 @@ def main() -> None:
                         ex["exercise_template_id"],
                         s.get("index"),
                         s.get("type", "normal"),
-                        round(weight, 1),
+                        round(weight, 2),
                         reps,
                     ])
                     rows += 1
