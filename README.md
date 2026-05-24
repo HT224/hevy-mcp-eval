@@ -47,7 +47,7 @@ The thin control's score (70% factual) ended up being the most surprising number
 
 ### 1. The MCP layer adds ~7 points over a 1:1 wrapper
 
-We pre-registered a threshold in [`DESIGN.md`](DESIGN.md): *"if no system separates from the thin control by >10%, treat as confirmation of H2."* chrisdoc beat thin by 7 points — under that bar. The MCP design surface (aggregation endpoints, summary tools, ergonomic schemas) adds modest, not transformative, value over raw API access.
+We pre-registered a threshold in [`DESIGN.md`](DESIGN.md) (see for in depth testing methodology): *"if no system separates from the thin control by >10%, treat as confirmation of H2."* chrisdoc beat thin by 7 points — under that bar. The MCP design surface (aggregation endpoints, summary tools, ergonomic schemas) adds modest, not transformative, value over raw API access.
 
 This was unexpected. We assumed well-designed MCPs would meaningfully outperform a raw passthrough. They don't, by much.
 
