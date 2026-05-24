@@ -23,5 +23,8 @@ logs/
 # Vendored third-party MCP servers (set up via scripts/setup_mcps.sh)
 vendor/
 
+# Personal/internal notes + drafts — never committed
+docs/
+
 # OS
 .DS_Store
