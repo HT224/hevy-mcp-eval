@@ -1,0 +1,46 @@
+{
+  "id": "d03",
+  "scoring": "factual",
+  "answer": {
+    "titles_in_order": [
+      "Lower A - Squat Focus - Adaptation Phase",
+      "Upper B - Pull Focus - Adaptation Phase",
+      "Lower B - Hinge Focus - Adaptation Phase",
+      "Upper A - Press Focus - Adaptation Phase",
+      "Lower A - Squat Focus - Adaptation Phase",
+      "Upper B - Pull Focus - Adaptation Phase",
+      "Lower B - Hinge Focus - Adaptation Phase",
+      "Upper A - Press Focus - Adaptation Phase",
+      "Lower A - Squat Focus - Adaptation Phase",
+      "Morning workout \u2600\ufe0f",
+      "Upper A - Press Focus - Adaptation Phase",
+      "Lower A - Squat Focus - Adaptation Phase",
+      "Late night workout \ud83c\udf19",
+      "Lower B - Hinge Focus - Adaptation Phase",
+      "Morning workout \u2600\ufe0f",
+      "Lower B - Hinge Focus - Adaptation Phase"
+    ],
+    "count": 16
+  },
+  "computed_details": {
+    "dates_in_order": [
+      "2026-04-01",
+      "2026-04-03",
+      "2026-04-04",
+      "2026-04-07",
+      "2026-04-08",
+      "2026-04-10",
+      "2026-04-11",
+      "2026-04-14",
+      "2026-04-15",
+      "2026-04-17",
+      "2026-04-21",
+      "2026-04-23",
+      "2026-04-25",
+      "2026-04-25",
+      "2026-04-28",
+      "2026-04-30"
+    ]
+  },
+  "computed_at": "2026-05-24T12:56:09.175812+00:00"
+}

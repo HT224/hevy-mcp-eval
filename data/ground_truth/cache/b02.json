@@ -1,0 +1,13 @@
+{
+  "id": "b02",
+  "scoring": "factual",
+  "answer": {
+    "weight_kg": 52.16,
+    "reps": 7,
+    "date": "2025-06-30"
+  },
+  "tolerance": {
+    "weight_kg": 0.5
+  },
+  "computed_at": "2026-05-24T12:56:09.156667+00:00"
+}

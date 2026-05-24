@@ -1,0 +1,20 @@
+{
+  "id": "a02",
+  "scoring": "factual",
+  "answer": {
+    "by_variant_kgreps": {
+      "Overhead Triceps Extension (Cable)": 884.51,
+      "Triceps Pushdown": 3168.35
+    },
+    "grand_total_kgreps": 4052.85
+  },
+  "tolerance": {
+    "grand_total_kgreps": 5.0,
+    "per_variant_kgreps": 2.0
+  },
+  "computed_details": {
+    "triceps_template_count_in_library": 26,
+    "april_workout_count": 16
+  },
+  "computed_at": "2026-05-24T12:56:09.137177+00:00"
+}

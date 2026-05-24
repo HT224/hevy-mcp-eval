@@ -1,0 +1,106 @@
+{
+  "id": "a04",
+  "scoring": "factual",
+  "answer": {
+    "top_3_pairs": [
+      {
+        "pair": [
+          "Romanian Deadlift (Barbell)",
+          "Seated Leg Curl (Machine)"
+        ],
+        "count": 50
+      },
+      {
+        "pair": [
+          "Front Squat",
+          "Romanian Deadlift (Barbell)"
+        ],
+        "count": 40
+      },
+      {
+        "pair": [
+          "Front Squat",
+          "Seated Leg Curl (Machine)"
+        ],
+        "count": 40
+      }
+    ]
+  },
+  "computed_details": {
+    "total_workouts_in_window": 151,
+    "unique_pairs_observed": 414,
+    "top_10_for_reference": [
+      {
+        "pair": [
+          "Romanian Deadlift (Barbell)",
+          "Seated Leg Curl (Machine)"
+        ],
+        "count": 50
+      },
+      {
+        "pair": [
+          "Front Squat",
+          "Romanian Deadlift (Barbell)"
+        ],
+        "count": 40
+      },
+      {
+        "pair": [
+          "Front Squat",
+          "Seated Leg Curl (Machine)"
+        ],
+        "count": 40
+      },
+      {
+        "pair": [
+          "Leg Extension (Machine)",
+          "Seated Leg Curl (Machine)"
+        ],
+        "count": 38
+      },
+      {
+        "pair": [
+          "Seated Leg Curl (Machine)",
+          "Standing Calf Raise (Dumbbell)"
+        ],
+        "count": 37
+      },
+      {
+        "pair": [
+          "Incline Bench Press (Barbell)",
+          "Triceps Pushdown"
+        ],
+        "count": 36
+      },
+      {
+        "pair": [
+          "Romanian Deadlift (Barbell)",
+          "Standing Calf Raise (Dumbbell)"
+        ],
+        "count": 36
+      },
+      {
+        "pair": [
+          "Lateral Raise (Cable)",
+          "Triceps Pushdown"
+        ],
+        "count": 35
+      },
+      {
+        "pair": [
+          "Leg Extension (Machine)",
+          "Romanian Deadlift (Barbell)"
+        ],
+        "count": 34
+      },
+      {
+        "pair": [
+          "Incline Bench Press (Barbell)",
+          "Lateral Raise (Cable)"
+        ],
+        "count": 32
+      }
+    ]
+  },
+  "computed_at": "2026-05-24T12:56:09.146525+00:00"
+}

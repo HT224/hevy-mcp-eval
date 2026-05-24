@@ -1,0 +1,12 @@
+{
+  "id": "d01",
+  "scoring": "factual",
+  "answer": {
+    "weight_kg": 40.8234,
+    "reps": 15
+  },
+  "tolerance": {
+    "weight_kg": 0.1
+  },
+  "computed_at": "2026-05-24T12:56:09.168270+00:00"
+}

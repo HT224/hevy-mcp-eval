@@ -1,0 +1,181 @@
+{
+  "id": "e03",
+  "scoring": "open_ended",
+  "relevant_context": {
+    "may_2026_volume_by_muscle": {
+      "quadriceps": 3742.1,
+      "hamstrings": 4592.6,
+      "adductors": 1007.0,
+      "upper_back": 4281.9,
+      "lats": 4951.0,
+      "shoulders": 961.6,
+      "biceps": 2190.9,
+      "chest": 5951.1,
+      "triceps": 4164.0
+    },
+    "prior_6mo_monthly_avg_by_muscle": {
+      "hamstrings": 11146.7,
+      "quadriceps": 5550.4,
+      "calves": 1689.8,
+      "upper_back": 2528.4,
+      "chest": 5917.0,
+      "lats": 3036.0,
+      "triceps": 2515.6,
+      "biceps": 1786.8,
+      "shoulders": 1158.8,
+      "glutes": 296.0,
+      "abdominals": 243.1,
+      "forearms": 51.0,
+      "cardio": 0.0,
+      "other": 0.0
+    },
+    "gaps_by_muscle": {
+      "glutes": {
+        "may_2026_kgreps": 0,
+        "prior_6mo_monthly_avg_kgreps": 296.0,
+        "delta_vs_avg": -296.0,
+        "pct_of_avg": 0.0
+      },
+      "abdominals": {
+        "may_2026_kgreps": 0,
+        "prior_6mo_monthly_avg_kgreps": 243.1,
+        "delta_vs_avg": -243.1,
+        "pct_of_avg": 0.0
+      },
+      "cardio": {
+        "may_2026_kgreps": 0,
+        "prior_6mo_monthly_avg_kgreps": 0.0,
+        "delta_vs_avg": 0.0,
+        "pct_of_avg": null
+      },
+      "biceps": {
+        "may_2026_kgreps": 2190.9,
+        "prior_6mo_monthly_avg_kgreps": 1786.8,
+        "delta_vs_avg": 404.1,
+        "pct_of_avg": 122.6
+      },
+      "lats": {
+        "may_2026_kgreps": 4951.0,
+        "prior_6mo_monthly_avg_kgreps": 3036.0,
+        "delta_vs_avg": 1915.0,
+        "pct_of_avg": 163.1
+      },
+      "shoulders": {
+        "may_2026_kgreps": 961.6,
+        "prior_6mo_monthly_avg_kgreps": 1158.8,
+        "delta_vs_avg": -197.2,
+        "pct_of_avg": 83.0
+      },
+      "hamstrings": {
+        "may_2026_kgreps": 4592.6,
+        "prior_6mo_monthly_avg_kgreps": 11146.7,
+        "delta_vs_avg": -6554.0,
+        "pct_of_avg": 41.2
+      },
+      "quadriceps": {
+        "may_2026_kgreps": 3742.1,
+        "prior_6mo_monthly_avg_kgreps": 5550.4,
+        "delta_vs_avg": -1808.2,
+        "pct_of_avg": 67.4
+      },
+      "calves": {
+        "may_2026_kgreps": 0,
+        "prior_6mo_monthly_avg_kgreps": 1689.8,
+        "delta_vs_avg": -1689.8,
+        "pct_of_avg": 0.0
+      },
+      "chest": {
+        "may_2026_kgreps": 5951.1,
+        "prior_6mo_monthly_avg_kgreps": 5917.0,
+        "delta_vs_avg": 34.1,
+        "pct_of_avg": 100.6
+      },
+      "upper_back": {
+        "may_2026_kgreps": 4281.9,
+        "prior_6mo_monthly_avg_kgreps": 2528.4,
+        "delta_vs_avg": 1753.5,
+        "pct_of_avg": 169.4
+      },
+      "other": {
+        "may_2026_kgreps": 0,
+        "prior_6mo_monthly_avg_kgreps": 0.0,
+        "delta_vs_avg": 0.0,
+        "pct_of_avg": null
+      },
+      "forearms": {
+        "may_2026_kgreps": 0,
+        "prior_6mo_monthly_avg_kgreps": 51.0,
+        "delta_vs_avg": -51.0,
+        "pct_of_avg": 0.0
+      },
+      "triceps": {
+        "may_2026_kgreps": 4164.0,
+        "prior_6mo_monthly_avg_kgreps": 2515.6,
+        "delta_vs_avg": 1648.4,
+        "pct_of_avg": 165.5
+      },
+      "adductors": {
+        "may_2026_kgreps": 1007.0,
+        "prior_6mo_monthly_avg_kgreps": 0,
+        "delta_vs_avg": 1007.0,
+        "pct_of_avg": null
+      }
+    },
+    "underworked_in_may_pct_lt_80": {
+      "glutes": {
+        "may_2026_kgreps": 0,
+        "prior_6mo_monthly_avg_kgreps": 296.0,
+        "delta_vs_avg": -296.0,
+        "pct_of_avg": 0.0
+      },
+      "abdominals": {
+        "may_2026_kgreps": 0,
+        "prior_6mo_monthly_avg_kgreps": 243.1,
+        "delta_vs_avg": -243.1,
+        "pct_of_avg": 0.0
+      },
+      "hamstrings": {
+        "may_2026_kgreps": 4592.6,
+        "prior_6mo_monthly_avg_kgreps": 11146.7,
+        "delta_vs_avg": -6554.0,
+        "pct_of_avg": 41.2
+      },
+      "quadriceps": {
+        "may_2026_kgreps": 3742.1,
+        "prior_6mo_monthly_avg_kgreps": 5550.4,
+        "delta_vs_avg": -1808.2,
+        "pct_of_avg": 67.4
+      },
+      "calves": {
+        "may_2026_kgreps": 0,
+        "prior_6mo_monthly_avg_kgreps": 1689.8,
+        "delta_vs_avg": -1689.8,
+        "pct_of_avg": 0.0
+      },
+      "forearms": {
+        "may_2026_kgreps": 0,
+        "prior_6mo_monthly_avg_kgreps": 51.0,
+        "delta_vs_avg": -51.0,
+        "pct_of_avg": 0.0
+      }
+    },
+    "user_equipment_universe": [
+      "barbell",
+      "dumbbell",
+      "kettlebell",
+      "machine",
+      "none",
+      "other",
+      "plate",
+      "resistance_band",
+      "suspension"
+    ]
+  },
+  "rubric_dimensions": [
+    "correctly_identifies_underworked_groups",
+    "comparison_actually_computed_from_data",
+    "two_specific_exercise_recommendations",
+    "recommendations_use_existing_equipment_patterns"
+  ],
+  "computed_at": "2026-05-24T12:56:09.189762+00:00"
+}

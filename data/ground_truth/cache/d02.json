@@ -1,0 +1,21 @@
+{
+  "id": "d02",
+  "scoring": "factual",
+  "answer": {
+    "start_time_iso": "2026-05-22T10:03:16+00:00",
+    "duration_minutes": 54
+  },
+  "accepted_start_time_formats": [
+    "2026-05-22T10:03:16+00:00",
+    "2026-05-22T10:03:16Z",
+    "2026-05-22T10:03:16+00:00"
+  ],
+  "tolerance": {
+    "duration_minutes": 1
+  },
+  "computed_details": {
+    "raw_start_time": "2026-05-22T10:03:16+00:00",
+    "raw_end_time": "2026-05-22T10:56:47+00:00"
+  },
+  "computed_at": "2026-05-24T12:56:09.172064+00:00"
+}

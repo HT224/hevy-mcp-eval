@@ -1,0 +1,223 @@
+{
+  "id": "b01",
+  "scoring": "factual",
+  "answer": {
+    "rep_prs": [
+      {
+        "exercise": "Incline Chest Press (Machine)",
+        "reps": 12,
+        "weight_kg": 22.68,
+        "date": "2026-05-21",
+        "previous_best_kg": null
+      },
+      {
+        "exercise": "Chest Press (Machine)",
+        "reps": 10,
+        "weight_kg": 22.68,
+        "date": "2026-05-21",
+        "previous_best_kg": null
+      },
+      {
+        "exercise": "Cable Fly Crossovers",
+        "reps": 8,
+        "weight_kg": 27.22,
+        "date": "2026-05-21",
+        "previous_best_kg": null
+      },
+      {
+        "exercise": "Front Raise (Cable)",
+        "reps": 12,
+        "weight_kg": 13.61,
+        "date": "2026-05-21",
+        "previous_best_kg": null
+      },
+      {
+        "exercise": "Triceps Pushdown",
+        "reps": 14,
+        "weight_kg": 27.22,
+        "date": "2026-05-21",
+        "previous_best_kg": null
+      },
+      {
+        "exercise": "Skullcrusher (Dumbbell)",
+        "reps": 16,
+        "weight_kg": 9.07,
+        "date": "2026-05-21",
+        "previous_best_kg": null
+      },
+      {
+        "exercise": "Incline Chest Press (Machine)",
+        "reps": 16,
+        "weight_kg": 13.61,
+        "date": "2026-05-21",
+        "previous_best_kg": null
+      },
+      {
+        "exercise": "Chest Press (Machine)",
+        "reps": 16,
+        "weight_kg": 13.61,
+        "date": "2026-05-21",
+        "previous_best_kg": null
+      },
+      {
+        "exercise": "Cable Fly Crossovers",
+        "reps": 16,
+        "weight_kg": 18.14,
+        "date": "2026-05-21",
+        "previous_best_kg": null
+      },
+      {
+        "exercise": "Front Raise (Cable)",
+        "reps": 16,
+        "weight_kg": 9.07,
+        "date": "2026-05-21",
+        "previous_best_kg": null
+      },
+      {
+        "exercise": "Triceps Pushdown",
+        "reps": 8,
+        "weight_kg": 27.22,
+        "date": "2026-05-21",
+        "previous_best_kg": 22.68
+      },
+      {
+        "exercise": "Seated Row (Machine)",
+        "reps": 12,
+        "weight_kg": 36.29,
+        "date": "2026-05-22",
+        "previous_best_kg": null
+      },
+      {
+        "exercise": "Lat Pulldown (Machine)",
+        "reps": 8,
+        "weight_kg": 36.29,
+        "date": "2026-05-22",
+        "previous_best_kg": null
+      },
+      {
+        "exercise": "Lateral Raise (Dumbbell)",
+        "reps": 16,
+        "weight_kg": 9.07,
+        "date": "2026-05-22",
+        "previous_best_kg": null
+      },
+      {
+        "exercise": "Rear Delt Reverse Fly (Machine)",
+        "reps": 12,
+        "weight_kg": 9.07,
+        "date": "2026-05-22",
+        "previous_best_kg": null
+      },
+      {
+        "exercise": "Straight Arm Lat Pulldown (Cable)",
+        "reps": 16,
+        "weight_kg": 13.61,
+        "date": "2026-05-22",
+        "previous_best_kg": null
+      },
+      {
+        "exercise": "Pull Up (Assisted)",
+        "reps": 9,
+        "weight_kg": 22.68,
+        "date": "2026-05-22",
+        "previous_best_kg": null
+      },
+      {
+        "exercise": "Preacher Curl (Machine)",
+        "reps": 12,
+        "weight_kg": 13.61,
+        "date": "2026-05-22",
+        "previous_best_kg": null
+      },
+      {
+        "exercise": "Seated Row (Machine)",
+        "reps": 16,
+        "weight_kg": 31.75,
+        "date": "2026-05-22",
+        "previous_best_kg": null
+      },
+      {
+        "exercise": "Lat Pulldown (Machine)",
+        "reps": 16,
+        "weight_kg": 27.22,
+        "date": "2026-05-22",
+        "previous_best_kg": null
+      },
+      {
+        "exercise": "Pull Up (Assisted)",
+        "reps": 12,
+        "weight_kg": 31.75,
+        "date": "2026-05-22",
+        "previous_best_kg": null
+      },
+      {
+        "exercise": "Preacher Curl (Machine)",
+        "reps": 16,
+        "weight_kg": 9.07,
+        "date": "2026-05-22",
+        "previous_best_kg": null
+      },
+      {
+        "exercise": "Leg Extension (Machine)",
+        "reps": 10,
+        "weight_kg": 47.63,
+        "date": "2026-05-23",
+        "previous_best_kg": 29.48
+      },
+      {
+        "exercise": "Leg Press (Machine)",
+        "reps": 12,
+        "weight_kg": 22.68,
+        "date": "2026-05-23",
+        "previous_best_kg": null
+      },
+      {
+        "exercise": "Seated Leg Curl (Machine)",
+        "reps": 10,
+        "weight_kg": 40.82,
+        "date": "2026-05-23",
+        "previous_best_kg": 27.22
+      },
+      {
+        "exercise": "Hip Adduction (Machine)",
+        "reps": 8,
+        "weight_kg": 27.22,
+        "date": "2026-05-23",
+        "previous_best_kg": null
+      },
+      {
+        "exercise": "Leg Press (Machine)",
+        "reps": 16,
+        "weight_kg": 22.68,
+        "date": "2026-05-23",
+        "previous_best_kg": null
+      },
+      {
+        "exercise": "Seated Leg Curl (Machine)",
+        "reps": 20,
+        "weight_kg": 34.02,
+        "date": "2026-05-23",
+        "previous_best_kg": null
+      },
+      {
+        "exercise": "Hip Adduction (Machine)",
+        "reps": 12,
+        "weight_kg": 20.41,
+        "date": "2026-05-23",
+        "previous_best_kg": null
+      },
+      {
+        "exercise": "Hip Adduction (Machine)",
+        "reps": 20,
+        "weight_kg": 13.61,
+        "date": "2026-05-23",
+        "previous_best_kg": null
+      }
+    ],
+    "count": 30
+  },
+  "tolerance": {
+    "weight_kg": 0.1
+  },
+  "computed_at": "2026-05-24T12:56:09.152577+00:00"
+}

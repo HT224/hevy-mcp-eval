@@ -1,0 +1,109 @@
+{
+  "id": "e01",
+  "scoring": "open_ended",
+  "relevant_context": {
+    "chest_exercises_with_session_count": {
+      "Incline Bench Press (Barbell)": 49,
+      "Push Up (Weighted)": 17,
+      "Incline Bench Press (Dumbbell)": 15,
+      "Bench Press (Dumbbell)": 5,
+      "Decline Push Up": 4,
+      "Chest Press (Machine)": 2,
+      "Incline Chest Press (Machine)": 1,
+      "Cable Fly Crossovers": 1,
+      "Push Up": 1,
+      "weighted decline pushups": 1
+    },
+    "rep_ranges_by_exercise": {
+      "Incline Chest Press (Machine)": {
+        "min": 12,
+        "max": 16,
+        "median": 16,
+        "sample_size": 2
+      },
+      "Chest Press (Machine)": {
+        "min": 5,
+        "max": 16,
+        "median": 8,
+        "sample_size": 6
+      },
+      "Cable Fly Crossovers": {
+        "min": 8,
+        "max": 16,
+        "median": 16,
+        "sample_size": 3
+      },
+      "Push Up": {
+        "min": 20,
+        "max": 20,
+        "median": 20,
+        "sample_size": 1
+      },
+      "Incline Bench Press (Dumbbell)": {
+        "min": 5,
+        "max": 15,
+        "median": 8,
+        "sample_size": 63
+      },
+      "Bench Press (Dumbbell)": {
+        "min": 6,
+        "max": 13,
+        "median": 12,
+        "sample_size": 17
+      },
+      "Incline Bench Press (Barbell)": {
+        "min": 3,
+        "max": 12,
+        "median": 8,
+        "sample_size": 257
+      },
+      "Decline Push Up": {
+        "min": 10,
+        "max": 10,
+        "median": 10,
+        "sample_size": 11
+      },
+      "weighted decline pushups": {
+        "min": 10,
+        "max": 10,
+        "median": 10,
+        "sample_size": 4
+      },
+      "Push Up (Weighted)": {
+        "min": 4,
+        "max": 11,
+        "median": 8,
+        "sample_size": 51
+      }
+    },
+    "avg_weekly_chest_volume_last_6mo_kgreps": 2199.1,
+    "chest_volume_by_week_last_6mo": {
+      "2025-W48": 707.6049387195981,
+      "2025-W49": 1889.2144677994397,
+      "2025-W50": 2013.9525178942406,
+      "2025-W51": 1016.0481171358331,
+      "2026-W01": 1190.6813872685543,
+      "2026-W02": 3041.3404577659644,
+      "2026-W03": 3191.0261178797255,
+      "2026-W04": 3193.2940824269035,
+      "2026-W05": 1197.485280910089,
+      "2026-W08": 877.702279757963,
+      "2026-W13": 1202.0212100044453,
+      "2026-W14": 3469.985757182644,
+      "2026-W15": 3508.541154484673,
+      "2026-W16": 3374.015512877503,
+      "2026-W17": 2544.6562219339385,
+      "2026-W18": 2467.54542732988,
+      "2026-W19": 2966.4976277090846,
+      "2026-W21": 1732.724914044144
+    }
+  },
+  "rubric_dimensions": [
+    "references_user_actual_chest_history",
+    "weekly_frequency_matches_user_patterns",
+    "rep_ranges_defensible_for_hypertrophy",
+    "progression_across_4_weeks",
+    "specificity_of_exercise_set_rep_prescription"
+  ],
+  "computed_at": "2026-05-24T12:56:09.180462+00:00"
+}

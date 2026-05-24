@@ -1,0 +1,260 @@
+{
+  "id": "e02",
+  "scoring": "open_ended",
+  "relevant_context": {
+    "window_start": "2026-03-22",
+    "window_end": "2026-05-17",
+    "all_rdl_sets": [
+      {
+        "date": "2026-03-25",
+        "weight_kg": 20.41,
+        "reps": 8,
+        "epley_1rm_kg": 25.85
+      },
+      {
+        "date": "2026-03-25",
+        "weight_kg": 29.48,
+        "reps": 12,
+        "epley_1rm_kg": 41.28
+      },
+      {
+        "date": "2026-03-25",
+        "weight_kg": 29.48,
+        "reps": 12,
+        "epley_1rm_kg": 41.28
+      },
+      {
+        "date": "2026-03-25",
+        "weight_kg": 29.48,
+        "reps": 12,
+        "epley_1rm_kg": 41.28
+      },
+      {
+        "date": "2026-04-01",
+        "weight_kg": 31.75,
+        "reps": 5,
+        "epley_1rm_kg": 37.04
+      },
+      {
+        "date": "2026-04-01",
+        "weight_kg": 31.75,
+        "reps": 12,
+        "epley_1rm_kg": 44.45
+      },
+      {
+        "date": "2026-04-01",
+        "weight_kg": 31.75,
+        "reps": 12,
+        "epley_1rm_kg": 44.45
+      },
+      {
+        "date": "2026-04-01",
+        "weight_kg": 31.75,
+        "reps": 12,
+        "epley_1rm_kg": 44.45
+      },
+      {
+        "date": "2026-04-04",
+        "weight_kg": 40.82,
+        "reps": 5,
+        "epley_1rm_kg": 47.63
+      },
+      {
+        "date": "2026-04-04",
+        "weight_kg": 40.82,
+        "reps": 8,
+        "epley_1rm_kg": 51.71
+      },
+      {
+        "date": "2026-04-04",
+        "weight_kg": 40.82,
+        "reps": 8,
+        "epley_1rm_kg": 51.71
+      },
+      {
+        "date": "2026-04-04",
+        "weight_kg": 40.82,
+        "reps": 8,
+        "epley_1rm_kg": 51.71
+      },
+      {
+        "date": "2026-04-08",
+        "weight_kg": 20.41,
+        "reps": 6,
+        "epley_1rm_kg": 24.49
+      },
+      {
+        "date": "2026-04-08",
+        "weight_kg": 29.48,
+        "reps": 4,
+        "epley_1rm_kg": 33.41
+      },
+      {
+        "date": "2026-04-08",
+        "weight_kg": 34.02,
+        "reps": 12,
+        "epley_1rm_kg": 47.63
+      },
+      {
+        "date": "2026-04-08",
+        "weight_kg": 34.02,
+        "reps": 12,
+        "epley_1rm_kg": 47.63
+      },
+      {
+        "date": "2026-04-08",
+        "weight_kg": 34.02,
+        "reps": 12,
+        "epley_1rm_kg": 47.63
+      },
+      {
+        "date": "2026-04-11",
+        "weight_kg": 27.22,
+        "reps": 5,
+        "epley_1rm_kg": 31.75
+      },
+      {
+        "date": "2026-04-11",
+        "weight_kg": 40.82,
+        "reps": 8,
+        "epley_1rm_kg": 51.71
+      },
+      {
+        "date": "2026-04-11",
+        "weight_kg": 40.82,
+        "reps": 9,
+        "epley_1rm_kg": 53.07
+      },
+      {
+        "date": "2026-04-11",
+        "weight_kg": 40.82,
+        "reps": 9,
+        "epley_1rm_kg": 53.07
+      },
+      {
+        "date": "2026-04-15",
+        "weight_kg": 22.68,
+        "reps": 5,
+        "epley_1rm_kg": 26.46
+      },
+      {
+        "date": "2026-04-15",
+        "weight_kg": 36.29,
+        "reps": 12,
+        "epley_1rm_kg": 50.8
+      },
+      {
+        "date": "2026-04-15",
+        "weight_kg": 36.29,
+        "reps": 12,
+        "epley_1rm_kg": 50.8
+      },
+      {
+        "date": "2026-04-15",
+        "weight_kg": 36.29,
+        "reps": 12,
+        "epley_1rm_kg": 50.8
+      },
+      {
+        "date": "2026-04-25",
+        "weight_kg": 20.41,
+        "reps": 5,
+        "epley_1rm_kg": 23.81
+      },
+      {
+        "date": "2026-04-25",
+        "weight_kg": 29.48,
+        "reps": 5,
+        "epley_1rm_kg": 34.4
+      },
+      {
+        "date": "2026-04-25",
+        "weight_kg": 43.09,
+        "reps": 8,
+        "epley_1rm_kg": 54.58
+      },
+      {
+        "date": "2026-04-25",
+        "weight_kg": 43.09,
+        "reps": 8,
+        "epley_1rm_kg": 54.58
+      },
+      {
+        "date": "2026-04-25",
+        "weight_kg": 43.09,
+        "reps": 8,
+        "epley_1rm_kg": 54.58
+      },
+      {
+        "date": "2026-04-30",
+        "weight_kg": 20.41,
+        "reps": 5,
+        "epley_1rm_kg": 23.81
+      },
+      {
+        "date": "2026-04-30",
+        "weight_kg": 36.29,
+        "reps": 5,
+        "epley_1rm_kg": 42.34
+      },
+      {
+        "date": "2026-04-30",
+        "weight_kg": 36.29,
+        "reps": 10,
+        "epley_1rm_kg": 48.38
+      },
+      {
+        "date": "2026-04-30",
+        "weight_kg": 36.29,
+        "reps": 10,
+        "epley_1rm_kg": 48.38
+      },
+      {
+        "date": "2026-04-30",
+        "weight_kg": 36.29,
+        "reps": 10,
+        "epley_1rm_kg": 48.38
+      },
+      {
+        "date": "2026-05-03",
+        "weight_kg": 34.02,
+        "reps": 5,
+        "epley_1rm_kg": 39.69
+      },
+      {
+        "date": "2026-05-03",
+        "weight_kg": 34.02,
+        "reps": 8,
+        "epley_1rm_kg": 43.09
+      },
+      {
+        "date": "2026-05-03",
+        "weight_kg": 34.02,
+        "reps": 8,
+        "epley_1rm_kg": 43.09
+      },
+      {
+        "date": "2026-05-03",
+        "weight_kg": 34.02,
+        "reps": 8,
+        "epley_1rm_kg": 43.09
+      }
+    ],
+    "weekly_max_epley_1rm": {
+      "2026-W13": 41.28,
+      "2026-W14": 51.71,
+      "2026-W15": 53.07,
+      "2026-W16": 50.8,
+      "2026-W17": 54.58,
+      "2026-W18": 48.38
+    },
+    "session_count": 9
+  },
+  "rubric_dimensions": [
+    "cites_actual_numbers_from_window",
+    "correct_diagnosis_relative_to_data",
+    "reasons_grounded_in_observable_data_if_stalling",
+    "characterizes_progression_if_not_stalling"
+  ],
+  "computed_at": "2026-05-24T12:56:09.184584+00:00"
+}

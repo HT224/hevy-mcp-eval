@@ -1,0 +1,40 @@
+{
+  "id": "a01",
+  "scoring": "factual",
+  "answer": {
+    "exercise_name": "Dumbbell Row",
+    "gain_kg": 19.96
+  },
+  "tolerance": {
+    "gain_kg": 0.5
+  },
+  "computed_details": {
+    "h1_best_1rm_kg": 31.75,
+    "h2_best_1rm_kg": 51.71,
+    "h1_sessions": 13,
+    "h2_sessions": 14,
+    "top_5_candidates": [
+      {
+        "exercise": "Dumbbell Row",
+        "gain_kg": 19.96
+      },
+      {
+        "exercise": "Seated Leg Curl (Machine)",
+        "gain_kg": 2.49
+      },
+      {
+        "exercise": "Hammer Curl (Dumbbell)",
+        "gain_kg": 0.91
+      },
+      {
+        "exercise": "Chin Up (Weighted)",
+        "gain_kg": 0.0
+      },
+      {
+        "exercise": "Triceps Pushdown",
+        "gain_kg": -0.76
+      }
+    ]
+  },
+  "computed_at": "2026-05-24T12:56:09.131832+00:00"
+}
