@@ -1,0 +1,18 @@
+[project]
+name = "hevy-mcp-eval"
+version = "0.1.0"
+description = "Eval suite for Hevy MCP servers — measures whether the MCP layer adds value over simpler baselines"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { file = "LICENSE" }
+dependencies = [
+    "anthropic>=0.104.1",
+    "httpx>=0.28.1",
+    "inspect-ai>=0.3.225",
+    "mcp[cli]>=1.27.1",
+    "pytest>=9.0.3",
+    "python-dotenv>=1.2.2",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
